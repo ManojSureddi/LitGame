@@ -1,0 +1,51 @@
+{
+  "name": "litgameui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development  webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManojSureddi/LitGameUI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManojSureddi/LitGameUI/issues"
+  },
+  "homepage": "https://github.com/ManojSureddi/LitGameUI#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "babel-preset-react-app": "^9.1.2",
+    "html-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "webpack": "^4.42.1",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "babel-plugin-named-asset-import": "^0.3.6",
+    "css-loader": "^3.5.2",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "sass-loader": "^8.0.2",
+    "socket.io-client": "^2.3.0",
+    "style-loader": "^1.1.4",
+    "url-loader": "^4.1.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "babel": {
+		"presets": [
+			"react-app"
+		]
+	}
+}
